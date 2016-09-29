@@ -1,0 +1,7 @@
+
+clear;
+
+% Load data
+ 
+trajectory_udu_load;
+  

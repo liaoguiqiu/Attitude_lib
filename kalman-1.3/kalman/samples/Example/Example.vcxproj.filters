@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d2c56864-8b00-4a93-b850-e66b9b9cbfda}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1981768b-4ef7-4933-864d-4f2d4ec40cc5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d72723c9-d773-4a56-bcc3-0b6036aeb731}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\initial">
+      <UniqueIdentifier>{4f0d0d93-a59a-4584-b589-c8a22e96a458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mymath">
+      <UniqueIdentifier>{97100b39-6c9d-4137-9949-4c61f0d1d450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imu">
+      <UniqueIdentifier>{9804259b-869d-4d24-b539-4596588a5bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{899a3f78-c153-486c-bc73-a8feafb1a66a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\schedu">
+      <UniqueIdentifier>{db96bc24-7609-405d-b42c-9dd5ade8c45c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="data.cpp">
+      <Filter>Source Files\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="csv.cpp">
+      <Filter>Source Files\initial</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\math\filter.cpp">
+      <Filter>Source Files\mymath</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\math\matrix3.cpp">
+      <Filter>Source Files\mymath</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\math\quaternion.cpp">
+      <Filter>Source Files\mymath</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\math\vector3.cpp">
+      <Filter>Source Files\mymath</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\mymath.cpp">
+      <Filter>Source Files\mymath</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AHRS.cpp">
+      <Filter>Source Files\imu</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\magnet.cpp">
+      <Filter>Source Files\imu</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\poliot\imu.cpp">
+      <Filter>Source Files\imu</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\poliot\parameter.cpp">
+      <Filter>Source Files\imu</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kstatics.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="schedu.cpp">
+      <Filter>Source Files\schedu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\kalman\ekfilter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kalman\ekfilter_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kalman\kfilter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kalman\kfilter_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kalman\kmatrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kalman\kmatrix_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kalman\ktypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kalman\kvector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kalman\kvector_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>Source Files\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="csv.h">
+      <Filter>Source Files\initial</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\math\filter.h">
+      <Filter>Source Files\mymath</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\math\matrix3.h">
+      <Filter>Source Files\mymath</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\math\quaternion.h">
+      <Filter>Source Files\mymath</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\math\rotation.h">
+      <Filter>Source Files\mymath</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\math\vector3.h">
+      <Filter>Source Files\mymath</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\include.h">
+      <Filter>Source Files\imu</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\mymath.h">
+      <Filter>Source Files\mymath</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AHRS.h">
+      <Filter>Source Files\imu</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\magnet.h">
+      <Filter>Source Files\imu</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\poliot\imu.h">
+      <Filter>Source Files\imu</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\poliot\parameter.h">
+      <Filter>Source Files\imu</Filter>
+    </ClInclude>
+    <ClInclude Include="schedu.h">
+      <Filter>Source Files\schedu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

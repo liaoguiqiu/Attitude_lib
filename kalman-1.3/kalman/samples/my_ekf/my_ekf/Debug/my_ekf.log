@@ -1,0 +1,14 @@
+﻿Build started 2016/9/28 13:59:25.
+     1>Project "G:\kalman_learning\my_ekf\kalman-1.3\kalman\samples\my_ekf\my_ekf\my_ekf.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\software-windows\VC\bin\CL.exe /c /I../../ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>g:\kalman_learning\my_ekf\kalman-1.3\kalman\samples\my_ekf\my_ekf\main.cpp(24): error C3861: 'selectKVectorContext': identifier not found
+     1>g:\kalman_learning\my_ekf\kalman-1.3\kalman\samples\my_ekf\my_ekf\main.cpp(24): error C3861: 'createKVectorContext': identifier not found
+     1>g:\kalman_learning\my_ekf\kalman-1.3\kalman\samples\my_ekf\my_ekf\main.cpp(25): error C3861: 'selectKMatrixContext': identifier not found
+     1>g:\kalman_learning\my_ekf\kalman-1.3\kalman\samples\my_ekf\my_ekf\main.cpp(25): error C3861: 'createKMatrixContext': identifier not found
+     1>Done Building Project "G:\kalman_learning\my_ekf\kalman-1.3\kalman\samples\my_ekf\my_ekf\my_ekf.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.69

@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EKFilter", "samples\EKFilter\EKFilter.vcxproj", "{2DC2E4E2-E54B-4D67-94F1-8838158A4B29}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example", "samples\Example\Example.vcxproj", "{AC1089D8-BC05-44C7-B527-7A77D4586C1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMatrix", "samples\KMatrix\KMatrix.vcxproj", "{B3B2B723-D74A-4FC6-93A3-527750A12395}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KVector", "samples\KVector\KVector.vcxproj", "{433340B5-28F0-4D59-A534-9B2692FE7718}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFile", "samples\MFile\MFile.vcxproj", "{C6B43A3C-EBD5-4731-B4B6-2644C456724B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libKalman", "libKalman.vcxproj", "{2855FD09-D4D5-440B-9AB3-6B3DB57974AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DC2E4E2-E54B-4D67-94F1-8838158A4B29}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2DC2E4E2-E54B-4D67-94F1-8838158A4B29}.Debug|Win32.Build.0 = Debug|Win32
+		{2DC2E4E2-E54B-4D67-94F1-8838158A4B29}.Release|Win32.ActiveCfg = Release|Win32
+		{2DC2E4E2-E54B-4D67-94F1-8838158A4B29}.Release|Win32.Build.0 = Release|Win32
+		{2DC2E4E2-E54B-4D67-94F1-8838158A4B29}.Template|Win32.ActiveCfg = Release|Win32
+		{2DC2E4E2-E54B-4D67-94F1-8838158A4B29}.Template|Win32.Build.0 = Release|Win32
+		{AC1089D8-BC05-44C7-B527-7A77D4586C1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC1089D8-BC05-44C7-B527-7A77D4586C1F}.Debug|Win32.Build.0 = Debug|Win32
+		{AC1089D8-BC05-44C7-B527-7A77D4586C1F}.Release|Win32.ActiveCfg = Release|Win32
+		{AC1089D8-BC05-44C7-B527-7A77D4586C1F}.Release|Win32.Build.0 = Release|Win32
+		{AC1089D8-BC05-44C7-B527-7A77D4586C1F}.Template|Win32.ActiveCfg = Template|Win32
+		{AC1089D8-BC05-44C7-B527-7A77D4586C1F}.Template|Win32.Build.0 = Template|Win32
+		{B3B2B723-D74A-4FC6-93A3-527750A12395}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3B2B723-D74A-4FC6-93A3-527750A12395}.Debug|Win32.Build.0 = Debug|Win32
+		{B3B2B723-D74A-4FC6-93A3-527750A12395}.Release|Win32.ActiveCfg = Release|Win32
+		{B3B2B723-D74A-4FC6-93A3-527750A12395}.Release|Win32.Build.0 = Release|Win32
+		{B3B2B723-D74A-4FC6-93A3-527750A12395}.Template|Win32.ActiveCfg = Template|Win32
+		{B3B2B723-D74A-4FC6-93A3-527750A12395}.Template|Win32.Build.0 = Template|Win32
+		{433340B5-28F0-4D59-A534-9B2692FE7718}.Debug|Win32.ActiveCfg = Debug|Win32
+		{433340B5-28F0-4D59-A534-9B2692FE7718}.Debug|Win32.Build.0 = Debug|Win32
+		{433340B5-28F0-4D59-A534-9B2692FE7718}.Release|Win32.ActiveCfg = Release|Win32
+		{433340B5-28F0-4D59-A534-9B2692FE7718}.Release|Win32.Build.0 = Release|Win32
+		{433340B5-28F0-4D59-A534-9B2692FE7718}.Template|Win32.ActiveCfg = Template|Win32
+		{433340B5-28F0-4D59-A534-9B2692FE7718}.Template|Win32.Build.0 = Template|Win32
+		{C6B43A3C-EBD5-4731-B4B6-2644C456724B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6B43A3C-EBD5-4731-B4B6-2644C456724B}.Debug|Win32.Build.0 = Debug|Win32
+		{C6B43A3C-EBD5-4731-B4B6-2644C456724B}.Release|Win32.ActiveCfg = Release|Win32
+		{C6B43A3C-EBD5-4731-B4B6-2644C456724B}.Release|Win32.Build.0 = Release|Win32
+		{C6B43A3C-EBD5-4731-B4B6-2644C456724B}.Template|Win32.ActiveCfg = Template|Win32
+		{C6B43A3C-EBD5-4731-B4B6-2644C456724B}.Template|Win32.Build.0 = Template|Win32
+		{2855FD09-D4D5-440B-9AB3-6B3DB57974AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2855FD09-D4D5-440B-9AB3-6B3DB57974AC}.Debug|Win32.Build.0 = Debug|Win32
+		{2855FD09-D4D5-440B-9AB3-6B3DB57974AC}.Release|Win32.ActiveCfg = Release|Win32
+		{2855FD09-D4D5-440B-9AB3-6B3DB57974AC}.Release|Win32.Build.0 = Release|Win32
+		{2855FD09-D4D5-440B-9AB3-6B3DB57974AC}.Template|Win32.ActiveCfg = Template|Win32
+		{2855FD09-D4D5-440B-9AB3-6B3DB57974AC}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
